@@ -54,7 +54,7 @@
 		fnOverride(ctrl, 'messageUpdated');
 		fnOverride(ctrl.getDom$(), 'prepend');
 
-		$('&nbsp; <span style="color:silver">（微信网页版助手 @ maq128）</span>').appendTo($('.webwx'));
+		$('&nbsp; <span style="color:silver">（<a target="_blank" style="color:silver" href="http://maq128.github.io/temp/WxAssist/install.html">微信网页版助手</a> @ maq128）</span>').appendTo($('.webwx'));
 	};
 
 	// 检查宿主网页加载完成，然后启动改造
